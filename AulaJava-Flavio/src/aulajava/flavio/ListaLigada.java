@@ -33,4 +33,15 @@ public class ListaLigada {
         builder.append("]");
         return builder.toString();
     }
+    
+    public void adiciona(Object elemento){
+        if (this.totalDeElementos == 0){
+            this.adicionaNoComeco(elemento);
+        } else {
+            Celula nova = new Celula(elemento);
+            this.ultima.setProxima(nova);
+            this.ultima = nova;
+            this.totalDeElementos++;
+        }
+    }
 }
