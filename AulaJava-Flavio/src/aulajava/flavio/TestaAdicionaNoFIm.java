@@ -6,8 +6,8 @@ public class TestaAdicionaNoFIm {
          
         lista.adiciona("Marcos");
         lista.adiciona("Daniel");
-        lista.adiciona("Caralho");
-        lista.adiciona("Pohaa");
+        lista.adiciona("Joao");
+        lista.adiciona("Carlos");
          
          System.out.println(lista);
     }
